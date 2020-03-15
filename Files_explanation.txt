@@ -1,0 +1,23 @@
+model.pkl is the machine learning model currently used in the code.
+vector.pickel is the feature extraction module.
+new_email.txt is the file where the email will be stored via  outlook monitoring.
+testmail.py is the file which does the monitoring . ensure outlook is installed before hand and running .
+Email_bot.py is the main file to run which will predict the class of the email and send a responding mail back to the user. Also it has the code for updating the database.
+my_normalisation.py is the required normalisation module that has been built by scratch.
+
+
+Required Libraries needed :
+
+for Email_bot.py
+sklearn
+pickle
+mysql library for python
+Smtplib   (For sending the mail out)\
+
+For running the testmail.py
+win32com.client
+pythoncom
+runpy
+Outlook should be installed
+
+
